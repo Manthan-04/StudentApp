@@ -5,7 +5,7 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 
 def load_model():
-    with open(r'C:\Users\y\Desktop\Academics\FullStackDS\machineLearning\linearRegression.pkl', 'rb') as file:
+    with open(r'linearRegression.pkl', 'rb') as file:
         model, scaler, le = pickle.load(file)
     return model, scaler, le
 
